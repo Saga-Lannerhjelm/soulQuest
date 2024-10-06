@@ -1,0 +1,28 @@
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+}
+
+.canvas-frame {
+  align-self: center;
+  margin-top: 80px;
+}
+
+/* CSS styling of input box */
+.inputBox {
+  position: fixed;
+
+  margin-top: 2px;
+  margin-right: 50%;
+  background: none;
+  color: #777777;
+  border: none;
+  border-bottom: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.inputBox:focus {
+  color: #ffffff;
+  outline: none;
+}
